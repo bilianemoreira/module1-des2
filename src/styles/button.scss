@@ -1,7 +1,6 @@
 button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   max-width: 20rem;
   width: 100%;
@@ -13,6 +12,10 @@ button {
 
   font-size: 1.125rem;
   color: var(--white);
+
+  & svg {
+    margin-right: 10px;
+  }
 
   &:hover {
     background: var(--background-button2);
